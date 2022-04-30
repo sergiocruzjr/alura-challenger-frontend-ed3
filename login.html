@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+    <header>
+        <div class="conteudo">
+            <div>
+                <img src="./img/Logo-alurageek.png" alt="" class="logo">
+                <input id="busca" name="busca" type="text" placeholder="O que deseja encontrar?">
+            </div>
+            <button onclick="login()">Login</button>
+        </div>
+    </header>
+
+    <main>
+        <form class="login" action="">
+            <h3>Iniciar Sessão</h3>
+            <div class="campos">
+                <div class="email">
+                    <label for="email"></label>
+                    <input id="email" name="email" type="text" placeholder="  Escreva seu email">
+                </div>
+                <div class="senha">
+                    <label for="senha"></label>
+                    <input id="senha" name="senha" type="text" placeholder="  Escreva sua senha">
+                </div>
+            </div>
+            <button>Entrar</button>
+        </form>
+    </main>
+
+    <footer>
+        <div class="conteudo">
+            <img src="./img/Logo-alurageek.png" alt="" class="logo">
+            <div class="links">
+                <a href="">Quem somos nós</a>
+                <a href="">Política de privacidade</a>
+                <a href="">Programa de fidelidade</a>
+                <a href="">Nossas lojas</a>
+                <a href="">Quero ser franqueado</a>
+                <a href="">Anuncie aqui</a>
+            </div>
+            <form class="contato" action="">
+                <h3>Fale conosco</h3>
+                <div class="campos">
+                    <div class="nome">
+                        <label for="nome"></label>
+                        <input id="nome" name="nome" type="text" placeholder="  Nome" class="contato">
+                    </div>
+                    <div class="mensagem">
+                        <label for="mensagem"></label>
+                        <input id="faleConosco-mensagem" name="nome" type="text" placeholder="  Escreva sua mensagem" class="contato">
+                    </div>
+                </div>
+                <button>Enviar mensagem</button>
+            </form>
+        </div>
+    </footer>
+
+        <div class="rodape">
+            <small>Desenvolvido por Sergio Cruz 2022</small>
+        </div>
+</body>
+</html>

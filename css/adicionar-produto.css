@@ -1,0 +1,238 @@
+body {
+    background: #F5F5F5;
+    font-family: 'Raleway';
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 115px;
+}
+
+header .conteudo {
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1136px;
+    height: 115px;
+}
+
+header div{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin: 0 32px 0 0;
+    width: 176px;
+    height: 50px;
+}
+
+#busca {
+    background: #F5F5F5;
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    width: 393px;
+    
+}
+
+header button {
+    display: flex;
+    background: #ffffff;
+    color: #2A7AE4;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #2A7AE4;
+    box-sizing: border-box;
+    padding: 16px;
+    width: 182px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+
+.adicionar-produto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 100px 0;
+    width: 559px;
+    height: 515px;
+}
+
+.adicionar-produto h3 {
+    font-weight: 700, bold;
+    font-size: 32px;
+    line-height: 38px;
+    width: 358px;
+    height: 38px;
+}
+
+.adicionar-produto div button {
+    display: flex;
+    background: #ffffff;
+    color: #2A7AE4;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #2A7AE4;
+    box-sizing: border-box;
+    padding: 16px;
+    width: 239px;
+    height: 51px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.adicionar-produto .adicionar-imagem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 559px;
+    height: 152px;
+}
+
+.adicionar-produto .campos {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    width: 559px;
+}
+
+.adicionar-produto .campos #nome-do-produto {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    border: none;
+    border-radius: 4px;
+    width: 559px;
+    height: 56px;
+}
+
+.adicionar-produto .campos #preco-do-produto {
+    display: flex;
+    flex-direction: column;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    width: 559px;
+    height: 56px;
+}
+
+.adicionar-produto .campos #descricao-do-produto {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 4px;
+    width: 559px;
+    height: 82px;
+}
+
+.adicionar-produto button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2A7AE4;
+    color: #ffffff;
+    width: 559px;
+    height: 51px;
+}
+
+
+
+footer {
+    background: #EAF2FD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 368px;
+}
+
+footer .conteudo {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: top;
+    width: 1136px;
+    height: 240px;
+}
+
+footer .conteudo .links {
+    display: flex;
+    flex-direction: column;
+    width: 176px;
+    height: 234px;
+}
+
+footer .conteudo .links a {
+    margin-bottom: 24px;
+    text-decoration: none;
+}
+
+footer .conteudo .contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 560px;
+    height: 240px;
+}
+
+footer .conteudo .contato h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+footer .conteudo .contato .campos {
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    height: 154px;
+}
+
+footer .conteudo .contato .campos .nome {
+    display: flex;
+    flex-direction: column;
+    margin: 8px 0;
+    width: 560px;
+    height: 56px;
+}
+
+footer .conteudo .contato .campos .mensagem {
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    height: 82px;
+}
+
+footer .conteudo .contato button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2A7AE4;
+    color: #ffffff;
+    width: 165px;
+    height: 51px;
+}
+
+.rodape {
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 102px;
+}
